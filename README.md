@@ -80,3 +80,37 @@ Después instalamos el archivo binario con el siguente comando:
 sudo ./nombre_archivo.bin
 ```
 
+## Paquetes con extensión .sh
+
+Los archifos .sh son scripts y para ejecutarlo en el sistema, hacemos doble click sobre ellos y seleccionamos "ejecutar desde terminal" y si alno no funciona ejecutamos en una terminal el comando:
+
+```
+bash nombre_paquete.sh
+```
+
+### Manera tradional para todos los GNU-Linux:
+
+Abrimos una terminal, nos situamos en la carpeta donde esté el archivo con el siguiente:
+
+```
+cd carpeta
+```
+
+Le damos permisos con:
+
+```
+chmod +x nombre_paquete.sh
+```
+
+Y ejecutamos el script con:
+
+```
+./nombre_paquete.sh
+```
+
+Si necesitamos hacerlo con root, anteponemos "sudo" al comando:
+
+```
+sudo ./nombre_paquete.sh
+```
+

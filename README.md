@@ -113,4 +113,19 @@ Si necesitamos hacerlo con root, anteponemos "sudo" al comando:
 ```
 sudo ./nombre_paquete.sh
 ```
+## Archivos de extensión .run
+
+Los archivos .run son asistentes, normalmente gráficos, que ayudan a la instalación. Para ejecutarlos basta introducir en el terminal:
+
+```
+./archivo.run
+```
+
+Normalmente en el caso de que necesite permisos de superusuario(administrador) pedirá la contraseña; de no ser así con ejecutar en el terminal:
+
+```
+sudo sh ./archivo.run
+```
+
+
 
